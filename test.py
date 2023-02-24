@@ -12,10 +12,17 @@ hour = ((mins+ dura%60))
 print(hour)
 # print(hour,":",a)
 # mins+=a-60
+
 # print("a= ",a)
 
 
 # print(hour,":",a)
+
+
+
+
+
+
 
 
 
