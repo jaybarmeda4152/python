@@ -36,9 +36,19 @@ print(ansList)
 """ print max mutations but not have sum of all given input , equal to n- END"""
 
 """ Find the runnerUp number - START"""
-def intNum(number):
-    print(number)
-n = int(input())
-ans = map(int,n.split())
-
+# n = int(input())
+# ans = list(map(int,input().split()))
+# print(sorted(ans, reverse=True)[1]) # sort the list and get the 1 index number which will be runner up.
 """ Find the runnerUp number - END"""
+
+""" Find the lowest mark of given input - START"""
+students = []
+for i in range(int(input())):
+    name = str(input(f'Enter the {i} number student Name: '))
+    marks1 = int(input(f'Enter the {i} number student Marks1: '))
+    students.append([name,marks1])
+    a = lambda x:x[1]
+print(a(students))
+# print(min(students, key= lambda x:x[1])) 
+
+""" Find the lowest mark of given input - END"""
