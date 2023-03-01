@@ -42,13 +42,18 @@ print(ansList)
 """ Find the runnerUp number - END"""
 
 """ Find the lowest mark of given input - START"""
-students = []
-for i in range(int(input())):
-    name = str(input(f'Enter the {i} number student Name: '))
-    marks1 = int(input(f'Enter the {i} number student Marks1: '))
-    students.append([name,marks1])
-    a = lambda x:x[1]
-print(a(students))
+# students = []
+# for _ in range(int(input())):
+#         name = input()
+#         score = float(input())
+#         students.append([name, score])
+# mn = min(students, key=lambda x: x[1])
+# nonlowest = sorted([student for student in students if student[1] > mn[1]], key= lambda x: x[1])
+# seconds = sorted([student[0] for student in nonlowest if student[1] == nonlowest[0][1]])
+# for student in seconds:
+#         print(student)
+# print(a(students))
+# nonlowest = sorted([student for student in students if student[1] > mn[1]], key= lambda x: x[1])
 # print(min(students, key= lambda x:x[1])) 
 
-""" Find the lowest mark of given input - END"""
+"""Find the lowest mark of given input - END"""
